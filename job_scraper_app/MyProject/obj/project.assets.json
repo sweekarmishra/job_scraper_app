@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Selenium.WebDriver.ChromeDriver/133.0.6943.9800": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.ChromeDriver.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Selenium.WebDriver.ChromeDriver/133.0.6943.9800": {
+      "sha512": "tla6We8erHceOX6Toq3/Qd+cQoDt8Z0HZMevBySpCJdyYfPx21NFuJ9ZwuOvF/cB2glVK98VejXjwbfVdoRRGA==",
+      "type": "package",
+      "path": "selenium.webdriver.chromedriver/133.0.6943.9800",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "build/DefinePropertiesChromeDriver.targets",
+        "build/Selenium.WebDriver.ChromeDriver.targets",
+        "driver/linux64/LICENSE.chromedriver",
+        "driver/linux64/chromedriver",
+        "driver/mac64/LICENSE.chromedriver",
+        "driver/mac64/chromedriver",
+        "driver/mac64arm/LICENSE.chromedriver",
+        "driver/mac64arm/chromedriver",
+        "driver/win32/LICENSE.chromedriver",
+        "driver/win32/chromedriver.exe",
+        "nupkg-icon.png",
+        "selenium.webdriver.chromedriver.133.0.6943.9800.nupkg.sha512",
+        "selenium.webdriver.chromedriver.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Selenium.WebDriver.ChromeDriver >= 133.0.6943.9800"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Sweekar.Mishra\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Sweekar.Mishra\\Documents\\job_scraper_project\\job_scraper_app\\MyProject\\MyProject.csproj",
+      "projectName": "MyProject",
+      "projectPath": "C:\\Users\\Sweekar.Mishra\\Documents\\job_scraper_project\\job_scraper_app\\MyProject\\MyProject.csproj",
+      "packagesPath": "C:\\Users\\Sweekar.Mishra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sweekar.Mishra\\Documents\\job_scraper_project\\job_scraper_app\\MyProject\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Sweekar.Mishra\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "Selenium.WebDriver.ChromeDriver": {
+            "target": "Package",
+            "version": "[133.0.6943.9800, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Scraper</title>
+    <style>
+        body {
+            background-color: #ff6b6b;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            width: 40%;
+            margin: auto;
+            margin-top: 100px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #333;
+        }
+        input {
+            padding: 10px;
+            width: 80%;
+            margin: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #ffcc00;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #ffaa00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Welcome to <span style="color: #ffcc00;">Job Scraper</span></h1>
+        <p>Find your dream job with a single search!</p>
+        
+        <form action="{% url 'job_list' %}" method="GET">
+            <input type="text" name="job_title" placeholder="Enter Job Title" required>
+            <input type="text" name="location" placeholder="Enter Location">
+            <button type="submit">🔍 Search Jobs</button>
+        </form>
+    </div>
+</body>
+</html>

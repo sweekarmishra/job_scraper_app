@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JGJhnU4GlHQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sweekar.Mishra\\Documents\\job_scraper_project\\job_scraper_app\\MyProject\\MyProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sweekar.Mishra\\.nuget\\packages\\selenium.webdriver.chromedriver\\133.0.6943.9800\\selenium.webdriver.chromedriver.133.0.6943.9800.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Listings</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            width: 60%;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: #ffcc00;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: white;
+            background: #ff6b6b;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        a:hover {
+            background: #ff4747;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Job Listings</h1>
+        
+        {% if jobs %}
+            <ul>
+                {% for job in jobs %}
+                    <li><strong>{{ job.title }}</strong> - {{ job.location }}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No jobs found. Try another search.</p>
+        {% endif %}
+
+        <a href="{% url 'home' %}">🔙 Back to Home</a>
+    </div>
+</body>
+</html>
